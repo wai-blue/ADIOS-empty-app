@@ -1,8 +1,12 @@
 {
+    "name": "wai-blue/adios-empty-app",
+    "description": "Empty app project for the ADIOS framework",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "twig/twig": "^3.0",
         "illuminate/database": "^7.12",
         "monolog/monolog": "^2.3",
         "wai-blue/adios": "^1.0"
-    },
+    }
 }
