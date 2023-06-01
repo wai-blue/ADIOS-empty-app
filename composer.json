@@ -1,5 +1,5 @@
 {
-    "name": "wai-blue/adios-empty-app",
+    "name": "wai-blue/adios-app",
     "description": "Empty app project for the ADIOS framework",
     "type": "library",
     "license": "MIT",
