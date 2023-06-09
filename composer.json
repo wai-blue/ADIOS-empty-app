@@ -7,6 +7,7 @@
         "twig/twig": "^3.0",
         "illuminate/database": "^7.12",
         "monolog/monolog": "^2.3",
-        "wai-blue/adios": "^1.0"
+        "wai-blue/adios": "^1.0",
+        "symfony/yaml": "^5.4"
     }
 }
