@@ -1,0 +1,3 @@
+[submodule "ADIOS"]
+	path = ADIOS
+	url = https://github.com/wai-blue/ADIOS
