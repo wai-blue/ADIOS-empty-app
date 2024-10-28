@@ -1,0 +1,25 @@
+{
+  "packages": {
+    "wai-blue/adios-app": {
+      "1.0.0": {
+        "name": "wai-blue/adios-app",
+        "description": "Empty app project for the ADIOS framework",
+        "version": "1.0.0",
+        "type": "library",
+        "license": "MIT",
+        "require": {
+          "twig/twig": "^3.0",
+          "illuminate/database": "^7.12",
+          "monolog/monolog": "^2.3",
+          "wai-blue/adios": "^1.0",
+          "symfony/yaml": "^5.4"
+        },
+        "source": {
+          "url": "https://github.com/wai-blue/adios-app.git",
+          "type": "git",
+          "reference": "v1.0.0"
+        }
+      }
+    }
+  }
+}
