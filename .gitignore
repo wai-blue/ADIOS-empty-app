@@ -1,3 +1,9 @@
 composer.lock
 vendor
 package.lock
+bin
+dist
+log/*
+node_modules
+package-lock.json
+
