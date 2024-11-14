@@ -1,6 +1,7 @@
 <?php
 
 // load configs
+global $config;
 require_once(__DIR__ . "/ConfigEnv.php");
 require_once(__DIR__ . "/src/ConfigApp.php");
 
@@ -14,7 +15,7 @@ try {
   $mUser = new \ADIOS\Models\User($app);
   $idUserAdministrator = $mUser->eloquent->create([
     'login' => 'administrator',
-    'password' => $mUser->hashPassword('administrator'),
+    'password' => $mUser->hashPassword('abcd'),
     'is_active' => 1,
   ])->id;
 
